@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html>
+
+   <head>
+      <!-- titre placé avant charset: est-ce que ça fonctionne? -->
+      <title>Jeu de mémoire</title>
+      <meta charset = "utf-8">
+      <link rel = "stylesheet" type = "text/css" href = "feuille.css">
+      </style>
+   </head>
+   <body>
+      <h1>Les tuiles à mémoriser</h1>
+      <p>
+         <ul>
+            <li>Cliquer sur une case de la grille révèle temporairement l'image qui s'y cache.</li>
+            <li>Révéler consécutivement la même image dans deux cases différentes affiche le contenu de ces cases en permanence.</li>
+            <li>Essayez de trouver toutes les paires d'images en un minimum de clics.</li>
+         </ul>
+      </p>
+      <p>
+         <table border = "1">
+            <tbody>
+               <tr>
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+               </tr>
+
+               <tr>
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+               </tr>
+
+               <tr>
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+               </tr>
+
+               <tr>
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+               </tr>
+
+               <tr>
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+               </tr>
+
+               <tr>
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> </td> 
+                  <td> <img src = "images/ours.png"> </td> 
+                  <td> </td> 
+               </tr>
+
+            </tbody>
+         </table>
+      </p>
+
+      <form method = "post">
+         <p><label>Pour commencer une nouvelle partie:
+            <input type = "submit" value = "Recommencer">
+         </label></p>
+      </form>
+
+      <p>Nombre de clics depuis le début de votre partie: 3</p>
+
+      <p>Plus petit nombre de clics d'une partie réussie: 123  Nom du joueur: Paul Houde</p>
+
+
+      <form method = "post">
+         <p>Pour envoyer votre pointage au serveur:<br>
+            <label>Votre nom:
+            <input type = "text" size = "36" maxlength = "40"> 
+            <input type = "submit" value = "Soumettre">
+         </label></p>
+      </form>
+
+   </body>
+
+</html>
