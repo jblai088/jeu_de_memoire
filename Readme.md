@@ -1,6 +1,6 @@
 ﻿# Jeu de mémoire
 
-Mon site web présente un jeu de mémoire. Le jeu a la forme d'une grille dans laquelle chaque case contient une image, normalement masquée. Chaque image utilisée existe en exactement deux exemplaires dans la grille. Le but est de découvrir toutes les paires d'images. 
+Mon site web est un jeu de mémoire. Le jeu a la forme d'une grille dans laquelle chaque case contient une image, normalement masquée. Chaque image utilisée existe en exactement deux exemplaires dans la grille. Le but est de découvrir toutes les paires d'images. 
 
 ## Forme de base du jeu
 Au début du jeu, toutes les images sont placées aléatoirement dans la grille et masquées.
